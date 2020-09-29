@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="generatedClassPathList">
+          <list>
+            <option value="C:\Users\Administrator\Desktop\cloud2020\cloud-provider-payment8001\src\main\java\com\lijieyao\springcloud\entity" />
+          </list>
+        </option>
+        <option name="mapperFilesFolder" value="C:\Users\Administrator\Desktop\cloud2020\cloud-provider-payment8001\src\main\resources\mapper" />
+        <option name="mapperFilesFolderList">
+          <list>
+            <option value="C:\Users\Administrator\Desktop\cloud2020\cloud-provider-payment8001\src\main\resources\mapper" />
+          </list>
+        </option>
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
