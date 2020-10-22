@@ -1,16 +1,16 @@
-package com.lijieyao.springcloud;
+package com.lijieyao.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author lijieyao
+ * @author LiJieYao
+ * @description TODO
+ * @date 2020/10/6 11:37 上午
  */
 @SpringBootApplication
-public class PaymentApplication {
-
+public class OrderApplication {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication.class, args);
+        SpringApplication.run(OrderApplication.class, args);
     }
-
 }

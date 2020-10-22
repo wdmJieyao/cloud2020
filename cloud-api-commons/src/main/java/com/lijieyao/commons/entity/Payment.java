@@ -1,4 +1,4 @@
-package com.lijieyao.springcloud.entity;
+package com.lijieyao.commons.entity;
 
 import lombok.Data;
 

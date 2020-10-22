@@ -1,12 +1,12 @@
-package com.lijieyao.springcloud.pojo.base;
+package com.lijieyao.commons.pojo.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @auther zzyy
- * @create 2020-02-18 17:23
+ * @author lijieyao
+ * @date 2020-02-18 17:23
  */
 @Data
 @AllArgsConstructor

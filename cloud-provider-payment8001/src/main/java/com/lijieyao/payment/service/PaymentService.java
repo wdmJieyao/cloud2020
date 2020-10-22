@@ -1,6 +1,6 @@
-package com.lijieyao.springcloud.service;
+package com.lijieyao.payment.service;
 
-import com.lijieyao.springcloud.entity.Payment;
+import com.lijieyao.commons.entity.Payment;
 
 /**
  * @author : LiJieYao

@@ -1,8 +1,8 @@
-package com.lijieyao.springcloud.service.impl;
+package com.lijieyao.payment.service.impl;
 
-import com.lijieyao.springcloud.dao.PaymentMapper;
-import com.lijieyao.springcloud.entity.Payment;
-import com.lijieyao.springcloud.service.PaymentService;
+import com.lijieyao.commons.entity.Payment;
+import com.lijieyao.payment.dao.PaymentMapper;
+import com.lijieyao.payment.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

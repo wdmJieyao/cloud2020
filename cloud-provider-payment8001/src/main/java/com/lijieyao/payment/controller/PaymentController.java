@@ -1,8 +1,8 @@
-package com.lijieyao.springcloud.controller;
+package com.lijieyao.payment.controller;
 
-import com.lijieyao.springcloud.entity.Payment;
-import com.lijieyao.springcloud.pojo.base.CommonResult;
-import com.lijieyao.springcloud.service.PaymentService;
+import com.lijieyao.commons.entity.Payment;
+import com.lijieyao.commons.pojo.response.CommonResult;
+import com.lijieyao.payment.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,7 +21,7 @@ public class PaymentController {
         return "hellow!";
     }
 
-    @PostMapping("/creat")
+    @PostMapping("/create")
     public CommonResult<Integer> creat(@RequestBody Payment payment) {
         int result = paymentService.creatPaymentInfo(payment);
         return new CommonResult<>(200, "", result);

@@ -1,6 +1,6 @@
-package com.lijieyao.springcloud.dao;
+package com.lijieyao.payment.dao;
 
-import com.lijieyao.springcloud.entity.Payment;
+import com.lijieyao.commons.entity.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
